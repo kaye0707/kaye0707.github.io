@@ -2478,7 +2478,7 @@ function createtime() {
   var unit = (dis / 149600000).toFixed(6);  // 天文单位
 
   // 网站诞生时间（网站运行时间）
-  var grt = new Date("2023/12/28 00:00:00");
+  var grt = new Date("2024/7/28 00:00:00");
   var days = (now - grt) / 1e3 / 60 / 60 / 24,
     dnum = Math.floor(days),
     hours = (now - grt) / 1e3 / 60 / 60 - 24 * dnum,
