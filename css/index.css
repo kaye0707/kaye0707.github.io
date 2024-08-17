@@ -6696,7 +6696,7 @@ center#name-container {
 }
 
 .menus_items .menus_item:nth-child(3) .menus_item_child {
-  left: -95px;
+  left: -86px;
 }
 
 .menus_items .menus_item:nth-child(4) .menus_item_child {
@@ -6704,7 +6704,7 @@ center#name-container {
 }
 
 .menus_items .menus_item:nth-child(5) .menus_item_child {
-  left: -117px;
+  left: -110px;
 }
 
 
@@ -9730,7 +9730,7 @@ hr:before {
 #bingHistoryBox:hover,
 #EEEDogBox:hover,
 /* #tuapiBox:hover, */
-#seovxBox:hover,
+/* #seovxBox:hover, */
 #picsumBox:hover,
 #unsplashBox:hover {
   text-decoration: none !important;
@@ -9760,10 +9760,10 @@ hr:before {
   content: "EEEDog动漫壁纸";
 }
 
-#seovxBox::before {
+/* #seovxBox::before {
   left: 30px;
   content: "seovx美女壁纸";
-}
+} */
 
 #picsumBox::before {
   left: 24px;
