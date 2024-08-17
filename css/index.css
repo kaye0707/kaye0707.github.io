@@ -8118,6 +8118,10 @@ blockquote {
   background-color: var(--theme-color) !important;
 }
 
+.error404 #error-wrap .error-content .error-info .error_title {
+  font-size: 6em;
+}
+
 .article-sort-title:before {
   border: 5px solid var(--theme-color) !important;
 }
