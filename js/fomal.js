@@ -2844,7 +2844,7 @@ let EEEDog = "url(https://api.yimian.xyz/img?type=moe&size=1920x1080)";
 // let tuapi = "url(https://tuapi.eees.cc/api.php?category=dongman)";
 
 // 随机美图cdn.seovx.com
-let seovx = "url(https://cdn.seovx.com/?mom=302)";
+// let seovx = "url(https://cdn.seovx.com/?mom=302)";
 
 // picsum随机
 let picsum = "url(https://picsum.photos/1920/1080.webp)";
@@ -3110,7 +3110,6 @@ function createWinbox() {
 <a id="bingDayBox" rel="noopener external nofollow" style="background-image: ${bingDayBg}" class="box apiBox" onclick="changeBg('${bingDayBg}')"></a>
 <a id="bingHistoryBox" rel="noopener external nofollow" style="background-image: ${bingHistoryBg}" class="box apiBox" onclick="changeBg('${bingHistoryBg}')"></a>
 <a id="EEEDogBox" rel="noopener external nofollow" style="background-image: ${EEEDog}" class="box apiBox" onclick="changeBg('${EEEDog}')"></a>
-<a id="seovxBox" rel="noopener external nofollow" style="background-image: ${seovx}" class="box apiBox" onclick="changeBg('${seovx}')"></a>
 <a id="picsumBox" rel="noopener external nofollow" style="background-image: ${picsum}" class="box apiBox" onclick="changeBg('${picsum}')"></a>
 </div>
 
