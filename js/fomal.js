@@ -2837,11 +2837,11 @@ let bingDayBg = screen.width <= 768 ? "url(https://bing.img.run/m.php)" : "url(h
 // 必应 历史壁纸API
 let bingHistoryBg = screen.width <= 768 ? "url(https://bing.img.run/rand_m.php)" : "url(https://bing.img.run/rand.php)";
 
-// EEE.DOG
-let EEEDog = "url(https://api.yimian.xyz/img?type=moe&size=1920x1080)";
+// LQBBY动漫
+// let LQBBY = "url(https://api.lqbby.com/api/dm)";
 
-// tuapi 动漫
-// let tuapi = "url(https://tuapi.eees.cc/api.php?category=dongman)";
+//樱花 随机二次元API
+let YINGHUA = "url(https://www.dmoe.cc/random.php)";
 
 // 随机美图cdn.seovx.com
 // let seovx = "url(https://cdn.seovx.com/?mom=302)";
@@ -3109,7 +3109,7 @@ function createWinbox() {
 <div class="bgbox">
 <a id="bingDayBox" rel="noopener external nofollow" style="background-image: ${bingDayBg}" class="box apiBox" onclick="changeBg('${bingDayBg}')"></a>
 <a id="bingHistoryBox" rel="noopener external nofollow" style="background-image: ${bingHistoryBg}" class="box apiBox" onclick="changeBg('${bingHistoryBg}')"></a>
-<a id="EEEDogBox" rel="noopener external nofollow" style="background-image: ${EEEDog}" class="box apiBox" onclick="changeBg('${EEEDog}')"></a>
+<a id="YINGHUABox" rel="noopener external nofollow" style="background-image: ${YINGHUA}" class="box apiBox" onclick="changeBg('${YINGHUA}')"></a>
 <a id="picsumBox" rel="noopener external nofollow" style="background-image: ${picsum}" class="box apiBox" onclick="changeBg('${picsum}')"></a>
 </div>
 

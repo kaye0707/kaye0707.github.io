@@ -9755,35 +9755,16 @@ hr:before {
   content: "必应历史壁纸";
 }
 
-#EEEDogBox::before {
+#YINGHUABox::before {
   left: 20px;
-  content: "EEEDog动漫壁纸";
+  content: "樱花动漫壁纸";
 }
-
-/* #seovxBox::before {
-  left: 30px;
-  content: "seovx美女壁纸";
-} */
 
 #picsumBox::before {
   left: 24px;
-  content: "picsum随机壁纸";
+  content: "Picsum随机壁纸";
 }
 
-#waiBizhiBox::before {
-  left: 34px;
-  content: "小歪高清壁纸";
-}
-
-#btstuBox::before {
-  left: 34px;
-  content: "博天随机壁纸";
-}
-
-#unsplashBox::before {
-  left: 15px;
-  content: "Unsplash随机壁纸";
-}
 
 /* 评论区圆角 */
 .tk-meta-input .el-input .el-input-group__prepend {
