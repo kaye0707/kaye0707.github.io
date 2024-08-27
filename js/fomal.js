@@ -2320,9 +2320,9 @@ const getStyle2 = (el, attr) => {
 const map = new Map();
 map.set('red', "rgb(241, 71, 71)");
 map.set('orange', "rgb(241, 162, 71)");
-map.set('yellow', "rgb(241, 238, 71)")
+map.set('yellow', "rgb(209, 207, 70)")
 map.set('purple', "rgb(179, 71, 241)");
-map.set('blue', "rgb(102, 204, 255)");
+map.set('blue', "rgb(30, 171, 242)");
 map.set('gray', "rgb(226, 226, 226)");
 map.set('green', "rgb(57, 197, 187)");
 map.set('whitegray', "rgb(241, 241, 241)");
@@ -2639,7 +2639,7 @@ function setFontBorder() {
 
 // 设置 主题色
 if (localStorage.getItem("themeColor") == undefined) {
-  localStorage.setItem("themeColor", "green");
+  localStorage.setItem("themeColor", "blue");
 }
 setColor(localStorage.getItem("themeColor"));
 function setColor(c) {
