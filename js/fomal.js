@@ -2832,11 +2832,15 @@ function changeBgColor() {
 }
 
 // 必应 每日壁纸API
-let bingDayBg = screen.width <= 768 ? "url(https://bing.img.run/m.php)" : "url(https://bing.img.run/1920x1080.php)";
+//必应壁纸 API：https://api.timelessq.com/bing/random
+//let bingDayBg = screen.width <= 768 ? "url(https://bing.img.run/m.php)" : "url(https://bing.img.run/1920x1080.php)";
+//let bingDayBg = screen.width <= 768 ? "url(https://bing.img.run/m.php)" : "url(https://bing.img.run/1920x1080.php)";
 
 // 必应 历史壁纸API
-let bingHistoryBg = screen.width <= 768 ? "url(https://bing.img.run/rand_m.php)" : "url(https://bing.img.run/rand.php)";
+//let bingHistoryBg = screen.width <= 768 ? "url(https://bing.img.run/rand_m.php)" : "url(https://bing.img.run/rand.php)";
 
+let bingDayBg = "url(https://api.xsot.cn/bing?jump=true)"; //每日壁纸API1
+let bingHistoryBg = "url(https://api.timelessq.com/bing/random)"; //每日壁纸API2
 // LQBBY动漫
 // let LQBBY = "url(https://api.lqbby.com/api/dm)";
 
